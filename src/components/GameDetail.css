@@ -1,0 +1,39 @@
+.game-details {
+  padding: 20px;
+  text-align: center;
+  animation: fadeInUp 0.5s ease-out;
+  background-color: black;
+}
+
+.game-details h2{
+    color: white;
+}
+
+.game-details img {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-details img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.game-details p, .game-details div {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.game-details div {
+  max-width: 80%;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
